@@ -1,8 +1,7 @@
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException; 
-public class DBConector2 { 
+public class DBConnector2 { 
 private static String driverName = "com.mysql.jdbc.Driver"; 
 private static String url =  
 "jdbc:mysql://localhost/testdb?autoReconnect=true&useSSL=false"; 

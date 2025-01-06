@@ -6,8 +6,8 @@ public class TestUserDAO {
 String name = ""; 
 String password = ""; 
 public void select(String name,String password) {
- DBConector2 db = new DBConector2(); 
-{ 
+ DBConnector2 db = new DBConnector2(); 
+
 Connection con = db.getConnection(); 
 String sql ="select * from test_table where user_name=? and password=?"; 
 try { 
@@ -28,5 +28,4 @@ con.close() ;
 e.printStackTrace(); 
 } 
 } 
-}
 }
